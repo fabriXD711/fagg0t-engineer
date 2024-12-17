@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const marqueeElement = document.getElementById('randomText');
 
     // Fetch the text file
-    fetch('/fagg0t-engineer/scripts/quote.txt')
+    fetch('https://fabrixd711.github.io/fagg0t-engineer/scripts/quote.txt')
         .then(response => response.text())
         .then(text => {
             // Split the file into lines
